@@ -1,0 +1,26 @@
+# Ignore any stray manifest used for testing
+circuits.json
+circuits.toml
+
+# Generated dependencies
+circuits/
+
+# Distributables
+dist/
+
+# Python efficiency junk
+**/__pycache__/
+
+# Pytest jcache
+.pytest_cache
+
+# Setup-tools generated files
+**/*.egg-info/
+**/*.egg-info
+
+# Mac generated files
+build/
+.DS_Store
+
+# VSCode files
+.vscode/
